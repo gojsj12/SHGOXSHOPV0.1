@@ -18,14 +18,14 @@ works on any of the following operating systems:
 
 # How to Install
 * Open the terminal and type `<pkg install git>`
-* Then`<git clone https://github.com/4lbH4cker/ALHacking>`
-* `<cd ALHacking>`
+* Then`<git clone https://github.com/gojsj12/SHGOXSHOPV0.1>`
+* `<cd SHGOXSHOPV0.1>`
 * `<bash alhack.sh>`
 
 
 # Warning
 
-We are not responsible for any misuse or damage caused by this program. Use this tool at your own risk!
+เปิดให้ใช้ฟรีไอควาย ไม่สอนใช้น้า 
 
 
 ❤️ Support me:
