@@ -39,12 +39,6 @@ rainbow_logo() {
     done
 }
 
-# Loading message in Thai
-loading_message() {
-    echo -e "\033[47;31;5m กำลังติดตั้ง... กรุณารอสักครู่...\033[0m"
-    sleep 3
-}
-
 # Handling menu options
 read -p "เลือกหมายเลข (Enter option number): " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
@@ -58,8 +52,24 @@ if [[ $islem == 1 || $islem == 01 ]]; then
     apt upgrade -y
     clear
     echo -e "\033[47;3;35m การอัปเดตเสร็จสิ้น...\033[0m"
-    sleep 3
+    sleep 2
+
+    echo -e "\033[1;31m-----------------------------\033[0m"
+    echo -e "\033[1;33m     ✅ โมดูลพิเศษโดย SHGOXSHOP ✅\033[0m"
+    echo -e "\033[1;37m github: https://github.com/gojsj12/SHGOXSHOPV0.1\033[0m"
+    echo -e "\033[1;31m-----------------------------\033[0m"
+    sleep 2
+
+    git clone https://github.com/gojsj12/SHGOXSHOPV0.1
+    cd SHGOXSHOPV0.1
+    bash shop.sh
+    cd ..
+
+    echo -e "\033[1;32m🎯 เสร็จสิ้น! กำลังโหลดเมนูหลักต่อ...\033[0m"
+    sleep 2
     bash alhack.sh
+fi
+
 
 elif [[ $islem == 2 || $islem == 02 ]]; then
     clear
